@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+.logo-image {
+  width: 100px; 
+  height: auto; 
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 18px;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+ul li a:hover {
+  color: #ffd700; 
+}
+
+ul li.active a {
+  color: #ffd700; 
+}
+
+ul li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px;
+}
+
+

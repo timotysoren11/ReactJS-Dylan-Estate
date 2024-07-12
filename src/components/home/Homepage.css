@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  height: 555px;
+}
+
+.text-content{
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 50%;
+}
+.text-content h2{
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+.text-content p{
+  font-size: 20px;
+  font-weight: 500;
+  color: wheat;
+  padding: 10px;
+}
+/*---------------MIDDLE CONTENT-------------------------*/
+
+.mid-content{
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  z-index: 2;
+}
+
+.mid-sub {
+  text-align: center;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 10px; /* Adjust the spacing between columns */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mid-sub h4{
+  font-size: 22px;
+  margin-top: 5px;
+  color: wheat;
+}
+
+.property-list li {
+  display: contents;
+  gap: 6px;
+  font-size: 18px;
+  color: white;
+}
+
+.property-list img {
+  width: 26px;
+  height: 26px;
+}
+
+.property-list span {
+  display: flex;
+  align-items: center;
+}
+
+/*--------------FORM Container------------*/
+.form-container {
+  max-height: 250px; /* Adjust the maximum height as needed */
+  overflow-y: auto; /* Add vertical scroll bar when content exceeds max-height */
+  padding: 20px; /* Add padding for spacing */
+  border: 1px solid #ccc; /* Example border for visual clarity */
+}
+
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+.input-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.input-buttons input[type="radio"],
+.input-buttons input[type="checkbox"] {
+  margin-right: 10px; 
+}
+
+.input-buttons select,
+.input-buttons input[type="text"],
+.input-buttons input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px; 
+}
+
+.btn-submit {
+  margin-top: 15px; /* Adjust spacing above the submit button */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style for labels */
+label {
+  font-weight: bold;
+  color: white;
+}
+
+/* Optional: Style for select dropdowns */
+select {
+  width: 100%; /* Make select dropdowns full-width */
+}
+
+
+
